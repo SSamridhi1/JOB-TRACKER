@@ -1,0 +1,19 @@
+/* Global stylesheet.
+   Why this file exists: a small set of resets and base styles shared by
+   every page, kept separate from component-level styles so it's obvious
+   what's "global" vs "local" as the app grows. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+a {
+  color: inherit;
+}
